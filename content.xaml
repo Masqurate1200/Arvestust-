@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Arvestus_Henri_Keskküla.content"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arvestus_Henri_Keskküla"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="211">
+
+    <Grid Background="#FF635959">
+        <Pivot>
+            <PivotItem Header="Item1" Background="#FF635959"/>
+            <PivotItem Header="Item2" Background="#FF635959" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            </PivotItem>
+            <PivotItem Header="Item3" Background="#FF635959">
+            </PivotItem>
+            <PivotItem Header="Item4" Background="#FF635959"/>
+        </Pivot>
+
+</Page>
